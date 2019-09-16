@@ -1,7 +1,8 @@
 ---
 kind: pipeline
 type: docker
-name: pull_request
+name: default
+
 trigger:
   event:
   - pull_request
@@ -11,6 +12,7 @@ steps:
   image: node:10
   commands:
   - npm test
+
 - name: build
   image: node:10
   commands:
@@ -22,9 +24,12 @@ steps:
 kind: pipeline
 type: docker
 name: merge_to_master
+
 trigger:
   branch:
   - master
+  event:
+  - push
 
 steps:
 - name: build
