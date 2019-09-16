@@ -1,3 +1,5 @@
+[![Build Status](https://drone.nille.dev/api/badges/nille-dev/website-nilledev/status.svg)](https://drone.nille.dev/nille-dev/website-nilledev)
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
