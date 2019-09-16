@@ -37,9 +37,9 @@ steps:
   settings:
     bucket: website-nille-dev
     access_key:
-      from_secret: aws_access_key_id
+      from_secret: AWS_ACCESS_KEY_ID
     secret_key:
-      from_secret: aws_secret_access_key
-    source: public/**/*
-    target: /public
+      from_secret: AWS_SECRET_ACCESS_KEY
+    source: public/*
+    target: /public/
     region: eu-north-1
