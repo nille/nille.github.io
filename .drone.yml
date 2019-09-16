@@ -17,3 +17,19 @@ steps:
   - npm i -g gatsby-cli
   - npm i 
   - gatsby build
+
+---
+kind: pipeline
+type: docker
+name: merge_to_master
+trigger:
+  branch:
+  - master
+
+steps:
+- name: build
+  image: node:10
+  commands:
+  - npm i -g gatsby-cli
+  - npm i 
+  - gatsby build
