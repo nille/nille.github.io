@@ -35,17 +35,6 @@ steps:
 - name: upload
   image: plugins/s3
   settings:
-    bucket: my-bucket-name
-    access_key:
-      from_secret: aws_access_key_id
-    secret_key:
-      from_secret: aws_secret_access_key
-    source: public/**/*
-    target: /target/location
-
-- name: upload
-  image: plugins/s3
-  settings:
     bucket: website-nille-dev
     access_key:
       from_secret: aws_access_key_id
