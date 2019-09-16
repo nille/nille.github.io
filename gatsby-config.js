@@ -1,3 +1,4 @@
+const targetAddress = new URL(process.env.TARGET_ADDRESS || `https://nille.dev`);
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -11,6 +12,12 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+          siteUrl: targetAddress.href.slice(0, -1),
       },
     },
     `gatsby-transformer-sharp`,
