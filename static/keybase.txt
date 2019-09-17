@@ -1,0 +1,86 @@
+==================================================================
+https://keybase.io/nille
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nille.dev
+  * I am nille (https://keybase.io/nille) on keybase.
+  * I have a public key with fingerprint C91E AE72 99FA 132F 47AF  2349 A3B5 7E26 8039 D9A1
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f643ac699d609870bc6237d4317f24706ab695119cfc900314a4512e1a0445810a",
+      "fingerprint": "c91eae7299fa132f47af2349a3b57e268039d9a1",
+      "host": "keybase.io",
+      "key_id": "a3b57e268039d9a1",
+      "kid": "01019ca562c96b340a766b74c0076371ee31ebdac9b188a66431bae60453e7a906ad0a",
+      "uid": "c7bafe29619e3096f950ace395829019",
+      "username": "nille"
+    },
+    "merkle_root": {
+      "ctime": 1568724344,
+      "hash_meta": "8acfbf85be82a55acb6d90e169c459000e34cad1c36b20418bd5211bfa712c63",
+      "seqno": 7517009
+    },
+    "revoke": {
+      "sig_ids": [
+        "d34cee7010831de0ac523e7ec47de2d18ca7a0c65467a2aef2dee604540382d80f"
+      ]
+    },
+    "service": {
+      "hostname": "nille.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1568724345,
+  "expire_in": 157680000,
+  "prev": "52c8f059d8688b1b247660163902d5fa0a58853642fe361d0b12d4ecb337dcf3",
+  "seqno": 53,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+
+owFtU31MVWUcvpjiJ4LIaPMTDzSbIb0f57znvNfp0E2dpqbiV+L1+p5z3iNH4J7L
+/SBJRUrNgOZlmdmSNnLhnIPclIxRNr8iEjQtXaNyKh+FWQgukxRd72W5udb55+z8
+zvN7fs/z/N63Iu4Z17CYUUO6emv7N9+Pab6luzwlVyu2SLpjFknuLVIuH3jxPJMH
+Q95c25TcEoAIWETGzCCUmgRQTQW6QRBWTRlD1UKyCgjTCVUgpIZlUAAwlJmsQMQh
+A7KsaBAwKV2ybN9GHvAHbF9I0BoUcsZVRKnFIEaWrDILYZkyrCsqR0QDmJqUQdGY
+4wSjHUKczoI8w3ZETXx4B+T9D/6JbiD0MIUggxIdy4CphOiqbACgEqxCzjHkuskM
+qkNNY0RYhDrjBMgK5iqjwpQ5oDs8QGeoOrM4ogRSjgElFlUAMzimioaomBQFBnnA
+x/K5QPvsvDwubUuX8nkgN497A44TiiZrhOzof6gQTUUylmXhjgVzvPk8xESbxgxL
+tzRF5xpiisIMnZgUcEioISsiWMCxbDATGpjoCMhQ000FQahbTIXIIFiICPICnyO5
+VQWqAFChIMALnVweHR60N4rMgpI7WzIFD+fqqQKRkoahyYUXBQnf3JBVkyMTagZT
+GTCIIhOVIcYtZPKBcGSANWRqwJI826LjAoW2MUAfXdPT9jNMXigE+QNOyDGcPFHO
+CYX8QXc0llCRP4p7levefxm8uu0zxQkRHYU8ELQdn4hJIP+bmJIu8c1+O8C9dhSh
+qGLz4onOEePckoIMzQIKNTWiaTrUxfEkBECCKUCmYjHAFE1TMJGRxTGBJtAhMmVu
+6FgcaMN6KkIFC51so+AUwflYKBwQGx1ROggPdsUMc01MnjI4bVXqmtqRkd2Xx7CT
+T27VkEHRK+UaMTzhSaW+N/7xC/7yB0u1/Ei4uWW7p6QpXNe545Fdf3FTcjxbXzYu
+8lvmu/cn+Hu7nus71Ja1YHfTockz8t7znXUiSXM+HLq9aFdsw5KR55JfXqF+ndwZ
++3NH1WG8t2bq26WRhd1/1sy6suzTI4U9tG5P31t9m9KLa5LW1X3jrVnU05ZUXVQ3
+dnrO6v6y1sJtN+ZldlmlCQtvpV04v7y59HRLwZTMmcUTWuLabt9jyX/kM9fQyXEz
+M9J69j+UWj8+n9YpjVv6YmdYBeeqRqWOte3SZ7ceTvy25fuko3+7qx6xuC+ON3cf
+lMesnHvpWta5ia59m3ccap0z7/TZOt8n91Y2HEAN7sTS/sVKOL+8aU/4x/YL7uLZ
+Jb878ObU4A+zAw/O7KqO769sX//BkY4bjSx7mvTRL+/sO7qnYfQ6p5i6GlPKQhNO
+n/q8umt4zcNRkdSti9WbiX0leysev554J+CL3XnAPXZ/91/jns9OzfR0DOoriD+R
+dbtz9rGMMy9VtX1WdvS12tzaRe3HJ8Wset9VOW/GVz/VoVuzUq4/HG3fHZ2dEFse
+SUhZ61SlHP61Z9L8N5ZdvnJp2sEKtd6THBupHLZgvYdklKWMv/rdhpNpWXf0NYuX
+r57eNP/LJVdXdLdUXnO3xvFjG/zxR3qrG7s89R0p00N3l/Sd7WBTxveeuH6jtr3P
+emX7rsa1FxfN3ffmmWWh+JkjG7bCnf8A
+=Ypoj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nille
+
+==================================================================
