@@ -46,3 +46,16 @@ steps:
     target: /
     delete: true
     cloudfront_distribution: E358FDGEVL9W5T
+
+- name: notify-slack
+  image: plugins/slack
+  settings:
+    webhook: https://hooks.slack.com/services/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
+    channel: notifications
+    icon_url: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+    template: >
+      {{#success build.status}}
+        build {{build.number}} succeeded. Good job.
+      {{else}}
+        build {{build.number}} failed. Fix me please.
+      {{/success}}
