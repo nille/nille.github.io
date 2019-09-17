@@ -32,7 +32,7 @@ steps:
   - npm i 
   - gatsby build
 
-- name: deploy
+- name: deploy-sync-invalidate-cache
   image: plugins/s3-sync:1
   settings:
     bucket: website-nille-dev
