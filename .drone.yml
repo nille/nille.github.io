@@ -32,36 +32,17 @@ steps:
   - npm i 
   - gatsby build
 
-- name: wipe-bucket
-  image: slmingol/s3wipe
-  environment:
-    id:
-      from_secret: AWS_ACCESS_KEY_ID
-    key:
-      from_secret: AWS_SECRET_ACCESS_KEY
-    region: eu-north-1
-    path: s3://website-nille-dev
-
 - name: deploy
-  image: plugins/s3
+  image: plugins/s3-sync:1
   settings:
     bucket: website-nille-dev
     access_key:
       from_secret: AWS_ACCESS_KEY_ID
     secret_key:
       from_secret: AWS_SECRET_ACCESS_KEY
-    source: public/**/*
-    target: /
-    strip_prefix: public/
     region: eu-north-1
-    path_style: true
-
-- name: invalidate-cloudfront-cache
-  image: tozny/cloudfront-invalidation 
-  environment:
-    AWS_ACCESS_KEY_ID:
-      from_secret: AWS_ACCESS_KEY_ID
-    AWS_SECRET_ACCESS_KEY:
-      from_secret: AWS_SECRET_ACCESS_KEY
-    AWS_DEFAULT_REGION: eu-north-1
-    DISTRIBUTION_ID: E358FDGEVL9W5T
+    bucket: website-nille-dev
+    source: public/
+    target: /
+    delete: true
+    cloudfront_distribution: E358FDGEVL9W5T
