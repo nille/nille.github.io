@@ -55,7 +55,7 @@ steps:
     icon_url: https://github.githubassets.com/images/modules/logos_page/Octocat.png
     template: >
       {{#success build.status}}
-        build {{build.number}} succeeded. Good job.
+        Build {{build.number}} succeeded. Good job. {{build.link}}
       {{else}}
-        build {{build.number}} failed. Fix me please.
+        Build {{build.number}} failed. Fix me please. {{build.link}}
       {{/success}}
