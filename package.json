@@ -20,8 +20,7 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
-    "prettier": "^1.18.2",
-    "s3": "git://github.com/andrewrk/node-s3-client.git#0ed018699843a2d3cc1cb37399ead1f76a72576d"
+    "prettier": "^1.18.2"
   },
   "keywords": [
     "gatsby"
