@@ -40,9 +40,10 @@ steps:
       from_secret: AWS_ACCESS_KEY_ID
     secret_key:
       from_secret: AWS_SECRET_ACCESS_KEY
-    source: public/*
+    source: public/**/*
     target: /
     region: eu-north-1
+    path_style: true
 
 - name: invalidate-cloudfront-cache
   image: tozny/cloudfront-invalidation 
