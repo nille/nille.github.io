@@ -1,6 +1,6 @@
-<div align="center">
+<p align="center">
   [![Build Status](https://drone.nille.dev/api/badges/nille-dev/website-nilledev/status.svg)](https://drone.nille.dev/nille-dev/website-nilledev)
-</div>
+</p>
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
@@ -9,7 +9,7 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's default starter
+  Gatsby's default starter.
 </h1>
 
 Kick off your project with this default boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
