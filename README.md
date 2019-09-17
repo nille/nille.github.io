@@ -1,4 +1,3 @@
-<p align="center">
   [![Build Status](https://drone.nille.dev/api/badges/nille-dev/website-nilledev/status.svg)](https://drone.nille.dev/nille-dev/website-nilledev)
 </p>
 
