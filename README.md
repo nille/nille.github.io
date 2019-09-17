@@ -1,5 +1,4 @@
   [![Build Status](https://drone.nille.dev/api/badges/nille-dev/website-nilledev/status.svg)](https://drone.nille.dev/nille-dev/website-nilledev)
-</p>
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
