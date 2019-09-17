@@ -33,14 +33,14 @@ steps:
   - gatsby build
 
 - name: wipe-bucket
-  image: slmingol/s3wipe 
+  image: slmingol/s3wipe
   environment:
     id:
       from_secret: AWS_ACCESS_KEY_ID
     key:
       from_secret: AWS_SECRET_ACCESS_KEY
     region: eu-north-1
-    path: s3://website-nille-dev/
+    path: s3://website-nille-dev
 
 - name: deploy
   image: plugins/s3
