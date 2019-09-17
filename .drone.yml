@@ -52,10 +52,10 @@ steps:
   settings:
     webhook: https://hooks.slack.com/services/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
     channel: notifications
-    icon_url: https://github.githubassets.com/images/modules/logos_page/Octocat.png
+    icon_url: https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png
     template: >
       {{#success build.status}}
-        Build {{build.number}} succeeded. Good job. {{build.link}}
+         {{build.link}} Build {{build.number}} succeeded. Good job.
       {{else}}
-        Build {{build.number}} failed. Fix me please. {{build.link}}
+        {{build.link}} Build {{build.number}} failed. Fix me please. 
       {{/success}}
