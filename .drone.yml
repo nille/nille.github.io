@@ -32,7 +32,7 @@ steps:
   - npm i 
   - gatsby build
 
-- name: upload
+- name: deploy
   image: plugins/s3
   settings:
     bucket: website-nille-dev
@@ -43,3 +43,13 @@ steps:
     source: public/*
     target: /
     region: eu-north-1
+
+- name: invalidate-cloudfront-cache
+  image: tozny/cloudfront-invalidation 
+  environment:
+    AWS_ACCESS_KEY_ID:
+      from_secret: AWS_ACCESS_KEY_ID
+    AWS_SECRET_ACCESS_KEY:
+      from_secret: AWS_SECRET_ACCESS_KEY
+    AWS_DEFAULT_REGION: eu-north-1
+    DISTRIBUTION_ID: E358FDGEVL9W5T
