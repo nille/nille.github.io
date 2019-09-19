@@ -52,10 +52,10 @@ steps:
   settings:
     webhook: https://hooks.slack.com/services/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
     channel: notifications
-    icon_url: https://cdn.iconscout.com/icon/free/png-256/github-153-675523.png
+    icon_url: http://icons.iconarchive.com/icons/google/noto-emoji-smileys/64/10103-robot-face-icon.png
     template: >
       {{#success build.status}}
-         {{build.link}} Build {{build.number}} succeeded. Good job.
+         :robot_face: {{build.link}} Build {{build.number}} succeeded. :thumbsup:
       {{else}}
-        {{build.link}} Build {{build.number}} failed. Fix me please. 
+        :robot_face: {{build.link}} Build {{build.number}} failed. :thumbsdown:
       {{/success}}
